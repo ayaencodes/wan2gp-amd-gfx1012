@@ -13,7 +13,7 @@ module.exports = {
       params: {
         uri: "torch.js",
         params: {
-          venv_python: "3.13",
+          venv_python: "3.11.9",
           venv: "env",
           path: "app",
         }
