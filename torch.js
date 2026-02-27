@@ -10,9 +10,9 @@ module.exports = {
         "venv": "{{args && args.venv ? args.venv : null}}",
         "path": "{{args && args.path ? args.path : '.'}}",
         "message": [
-          "uv pip install --pre torch==2.10.0a0+rocm7.0.0rc20250917 --index-url https://rocm.nightlies.amd.com/v2/gfx120X-all/",
-          "uv pip install --pre torchaudio==2.8.0a0+rocm7.0.0rc20250917 --index-url https://rocm.nightlies.amd.com/v2/gfx120X-all/",
-          "uv pip install --pre torchvision==0.25.0a0+rocm7.0.0rc20250917 --index-url https://rocm.nightlies.amd.com/v2/gfx120X-all/"
+          "uv pip install --pre torch==2.10.0a0+rocm7.0.0rc20250919 --index-url https://rocm.nightlies.amd.com/v2/gfx120X-all/",
+          "uv pip install --pre torchaudio==2.8.0a0+rocm7.0.0rc20250919 --index-url https://rocm.nightlies.amd.com/v2/gfx120X-all/",
+          "uv pip install --pre torchvision==0.25.0a0+rocm7.0.0rc20250919 --index-url https://rocm.nightlies.amd.com/v2/gfx120X-all/"
         ]
       },
       "next": null
